@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>スライドショー</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/fa76c34c1d.js" crossorigin="anonymous"></script>
+ </head>
+  <body>
+
+    <div class="title">
+      歴代校長・学長・総長スライドショー
+      <i class="fa-solid fa-dove"></i>
+    </div>
+    <div class="main">
+      <button type="button" onclick="left()">＜もどる</button>
+      <img src="https://www.waseda.jp/top/assets/uploads/2014/03/hidemaro-360x270.jpg">
+      <button type="button" onclick="right()">すすむ＞</button>
+    </div>
+    <div class="control">
+      <button onclick="play()">
+        <i class="fa-solid fa-play"></i>
+      </button>
+      <button onclick="stop()">
+        <i class="fa-solid fa-pause"></i>
+      </button>
+      <button onclick="reset()">
+        <i class="fa-solid fa-circle-stop"></i>
+      </button>
+    </div>
+    <script src="js/slidShow.js"></script>
+
+
+
+  </body>
+</html>
